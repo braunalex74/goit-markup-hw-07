@@ -46,14 +46,6 @@ img {
   height: auto;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .link {
   text-decoration: none;
 }
@@ -91,6 +83,14 @@ img {
   text-align: center;
   border: none;
   cursor: pointer;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header {
