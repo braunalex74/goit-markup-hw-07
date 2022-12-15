@@ -1,28 +1,28 @@
-.section-employment {
+.employment {
     margin: 0;
     padding-bottom: 94px;
 
     text-align: center;
 }
-.section-employment__list {
+.employment__list {
     display: flex;
 }
-.section-employment__list > .section-employment__item {
+.employment__list > .employment__item {
     width: calc((100% - 60px) / 3);
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 30px;
 }
-.section-employment__list > .section-employment__item:nth-child(3n) {
+.employment__list > .employment__item:nth-child(3n) {
     margin-right: 0;
 }
-.section-employment__title {
+.employment__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-text-color);
 }
-.section-employment__title {
+.employment__title {
     margin-top: 0;
     margin-bottom: 50px;
 }
