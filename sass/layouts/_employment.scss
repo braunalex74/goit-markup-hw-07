@@ -4,36 +4,29 @@
 
     text-align: center;
 }
-.employment-list {
+.section-employment__list {
     display: flex;
 }
-.employment-list > .employment-item {
+.section-employment__list > .section-employment__item {
     width: calc((100% - 60px) / 3);
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 30px;
 }
-.employment-list > .employment-item:nth-child(3n) {
+.section-employment__list > .section-employment__item:nth-child(3n) {
     margin-right: 0;
 }
-.employment-title,
-.team-title {
+.section-employment__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-text-color);
 }
-.employment-title {
+.section-employment__title {
     margin-top: 0;
     margin-bottom: 50px;
 }
-.employment-box {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.image-label {
+.image__label {
     position: absolute;
     bottom: 0;
     padding-top: 27px;

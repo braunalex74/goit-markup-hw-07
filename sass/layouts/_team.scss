@@ -6,6 +6,15 @@
 
     background-color: var(--background-color_2);
 }
+.section-team__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--title-text-color);
+}
 .team-list > .team-item + .team-item {
     margin-left: 30px;
 }
@@ -18,10 +27,6 @@
     background: var(--primary-white-color);
     box-shadow: 0px 1px 3px var(--box-shadow-color);
     border-radius: 0px 0px 4px 4px;
-}
-.team-title {
-    margin-top: 0;
-    margin-bottom: 50px;
 }
 .team-info,
 .team-text {

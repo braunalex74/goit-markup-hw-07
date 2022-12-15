@@ -13,7 +13,7 @@
     border: 1px solid var(--hover-color);
     background-color: var(--background-color-hero);
 }
-.hero-title {
+.section-hero__title {
     display: block;
     margin-top: 0;
     margin-bottom: 30px;
@@ -25,7 +25,7 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
 }
-.hero-btn {
+.section-hero__btn {
     padding: 10px 32px;
 
     font-weight: 700;
@@ -38,7 +38,7 @@
     box-shadow: var(--box-shadow-color-2);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-btn:hover,
-.hero-btn:focus {
+.section-hero__btn:hover,
+.section-hero__btn:focus {
     background-color: var(--hover-color);
 }
