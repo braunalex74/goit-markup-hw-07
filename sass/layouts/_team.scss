@@ -75,9 +75,9 @@
     background-color: var(--accent-color);
     fill: var(--primary-white-color);
 }
-.section-team__soc-link:hover .team-soc-icon{
+.section-team__soc-link:hover .section-team__icon {
     fill: var(--primary-white-color);
 }
-.team-soc-icon {
+.section-team__icon {
     fill: currentColor;
 }
