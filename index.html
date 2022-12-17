@@ -394,7 +394,7 @@
           <p class="modal__form-title">Залиште свої дані, ми вам передзвонимо</p>
           <form action="">
             <div class="modal-input">
-                <label for="name" class="label-text">Ім'я</label>
+                <label for="name" class="modal-input__label">Ім'я</label>
                 <div class="modal-input__field">
                     <input type="text" class="input" name="name" id="name" required>
                     <svg width="18" height="18" class="modal-input__icon">
@@ -403,7 +403,7 @@
                 </div>    
             </div>
             <div class="modal-input">
-                <label for="tel" class="label-text">Телефон</label>
+                <label for="tel" class="modal-input__label">Телефон</label>
                 <div class="modal-input__field">
                     <input type="text" class="input" name="tel" id="tel" value="+38" required >
                     <svg width="18" height="18" class="modal-input__icon">
@@ -412,7 +412,7 @@
                 </div>
             </div>
             <div class="modal-input">
-                <label for="email" class="label-text">Пошта</label>
+                <label for="email" class="modal-input__label">Пошта</label>
                 <div class="modal-input__field">
                     <input type="text" class="input" name="email" id="email" required>
                     <svg width="18" height="18" class="modal-input__icon">
@@ -421,21 +421,22 @@
                 </div>
             </div>
             <div class="modal-input__com">
-                <label for="comment" class="label-text">Коментар</label>
-                <textarea class="modal-input-comment input" placeholder="Введіть текст" name="comment" id="comment"></textarea>
+                <label for="comment" class="modal-input__label">Коментар</label>
+                <textarea class="modal-input__comment input" placeholder="Введіть текст" name="comment" id="comment"></textarea>
             </div>
-            <div class="modal-input-group-politic">
-                <input type="checkbox" name="politic" id="politic" class="modal-politic-check visually-hidden">
-                <label for="politic" class="modal-politic-label">
-                    <span class="modal-politic-check">
+
+            <div class="modal-input__politic">
+                <input type="checkbox" name="politic" id="politic" class="modal-input__check visually-hidden">
+                <label for="politic" class="modal-politic__label">
+                    <span class="modal-input__check">
                         <svg width="11" height="8">
                             <use href="./images/icons.svg#icon-check"></use>
                         </svg>
-                    </span>  Погоджуюся з розсилкою та приймаю<a class="politic-cklick line" href="">Умови договору</a>
+                    </span>  Погоджуюся з розсилкою та приймаю<a class="modal-input__cklick line" href="">Умови договору</a>
                 </label>
             </div>
-            <div class="modal-btn">
-                <button type="submit" class="modal-form-btn btn">Відправити</button>
+            <div class="modal__form-btn">
+                <button type="submit" class="form__btn btn">Відправити</button>
             </div>
             
           </form>
