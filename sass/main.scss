@@ -1,6 +1,5 @@
 @import './base/reset';
 
-
 @import './utils/variables';
 @import './utils/line';
 @import './utils/placeholder';
@@ -19,3 +18,5 @@
 @import './layouts/portfolio';
 @import './layouts/footer';
 @import './layouts/modal';
+
+@import './mixin/font';
