@@ -1,4 +1,3 @@
 .nav-contact {
-    display: flex;
-    align-items: center;
+    @extend %flex-align;
 }
