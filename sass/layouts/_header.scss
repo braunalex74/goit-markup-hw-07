@@ -63,11 +63,11 @@
     &:hover .contact-icon,
     &:focus .contact-icon {
         fill: var(--accent-color);
+    }
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
     }   
-}
-.contact__link:hover,
-.contact__link:focus {
-    color: var(--accent-color);
 }
 .contact__icon {
     margin-right: 10px;
