@@ -125,6 +125,15 @@ img {
   border-bottom: 1px solid var(--border-color);
 }
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--hover-color);
+}
+
 .nav__list {
   display: flex;
   margin-left: 93px;
@@ -572,12 +581,6 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-logo {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: var(--primary-white-color);
-}
 .footer-contact__list .footer-contact__item:not(:last-of-type) {
   margin-top: 0;
   margin-bottom: 10px;
@@ -695,6 +698,14 @@ img {
   top: 13px;
   right: 28px;
   fill: currentColor;
+}
+
+.logo--footer {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  color: var(--primary-white-color);
 }
 
 .backdrop {
